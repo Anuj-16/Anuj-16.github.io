@@ -49,6 +49,7 @@ function sendMail(params) {
   
   // Scroll to top button script
   const btnScrollToTop = document.querySelector("#btnScrollToTop");
+
   
   btnScrollToTop.addEventListener("click", function () {
     window.scrollTo({
@@ -57,21 +58,35 @@ function sendMail(params) {
       behavior: "smooth",
     });
   });
+
+
   
-  GitHubCalendar(".calendar", "Anujpatel", { responsive: true });
   
+
+    // GitHubCalendar(".calendar", "Anuj-16");
+
+    
+    // GitHubCalendar(".calendar", "Anuj-16", { 
+    //   responsive: true
+      
+    // });
+
+    
+    
+
+  // https://drive.google.com/file/d/1LTU-tGNy8HfUGozmdw8PvnHGc4RxGzVY/view?usp=sharing
   // Resume
   var resumeLink = document.querySelector("#resume-button-1");
   resumeLink.addEventListener("click", function (event) {
     event.preventDefault();
     window.open(
-      "https://drive.google.com/file/d/1fhOm5oG7rerXBBlaytlqY_H69AdPmL1s/view?usp=sharing",
+      "https://drive.google.com/file/d/1LTU-tGNy8HfUGozmdw8PvnHGc4RxGzVY/view?usp=sharing",
       "_blank"
     );
     let link = document.createElement("a");
     link.href =
-      "https://drive.google.com/uc?export=download&id=1fhOm5oG7rerXBBlaytlqY_H69AdPmL1s";
-    link.download = "ANUJ-PATEL-RESUME.pdf";
+      "https://drive.google.com/uc?export=download&id=1LTU-tGNy8HfUGozmdw8PvnHGc4RxGzVY";
+    link.download = "ANUJ_PATEL_RESUME.pdf";
     link.click();
   });
   
@@ -79,13 +94,13 @@ function sendMail(params) {
   resumeLink.addEventListener("click", function (event) {
     event.preventDefault();
     window.open(
-      "https://drive.google.com/file/d/1fhOm5oG7rerXBBlaytlqY_H69AdPmL1s/view?usp=sharing",
+      "https://drive.google.com/file/d/1LTU-tGNy8HfUGozmdw8PvnHGc4RxGzVY/view?usp=sharing",
       "_blank"
     );
     let link = document.createElement("a");
     link.href =
-      "https://drive.google.com/uc?export=download&id=1fhOm5oG7rerXBBlaytlqY_H69AdPmL1s";
-    link.download = "ANUJ-PATEL-RESUME.pdf";
+      "https://drive.google.com/uc?export=download&id=1LTU-tGNy8HfUGozmdw8PvnHGc4RxGzVY";
+    link.download = "ANUJ_PATEL_RESUME.pdf";
     link.click();
   });
   

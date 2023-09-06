@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background-image: url('images/bg.jpg');
+  /* background-image: url('image/port-bg.jpg'); */
   background-color: #8f8e8f;
   background-size: cover;
   background-attachment: fixed;
