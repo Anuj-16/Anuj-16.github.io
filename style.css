@@ -12,7 +12,8 @@ html {
 
 body {
   /* background-image: url('image/port-bg.jpg'); */
-  background-color: #8f8e8f;
+  /* background-color: #8f8e8f; */
+  background-color: #fff;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -33,7 +34,7 @@ body {
   padding: 30px 0;
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
-  background-color: rgb(92, 90, 90);
+  /* background-color: rgb(92, 90, 90); */
   
 }
 
@@ -94,7 +95,7 @@ body {
   margin-left: 25px;
   transition: color 0.3s;
   /* color: white; */
-  color: rgb(193, 187, 245);
+  color: rgb(166, 159, 233);
   text-decoration: none;
   display: inline-block;
   padding: 15px 20px;
@@ -116,7 +117,7 @@ body {
 .navbar .menu a:hover:after {
   width: 100%;
   left: 0;
-  color: rgb(197, 192, 245);
+  color: rgb(178, 171, 237);
 }
 .navbar .menu li a:hover {
   color: rgb(102, 0, 153);
@@ -203,7 +204,7 @@ body {
 #home .passport {
   margin-left: 250px;
   padding-top: 200px;
-  width: 15%;
+  width: 20%;
 }
 
 #home .passport img {
