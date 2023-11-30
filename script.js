@@ -80,12 +80,12 @@ function sendMail(params) {
   resumeLink.addEventListener("click", function (event) {
     event.preventDefault();
     window.open(
-      "https://drive.google.com/file/d/1LTU-tGNy8HfUGozmdw8PvnHGc4RxGzVY/view?usp=sharing",
+      "https://drive.google.com/file/d/1_njgaZIX2icoiFNKKkZZpzs8YFWTudL7/view?usp=sharing",
       "_blank"
     );
     let link = document.createElement("a");
     link.href =
-      "https://drive.google.com/uc?export=download&id=1LTU-tGNy8HfUGozmdw8PvnHGc4RxGzVY";
+      "https://drive.google.com/uc?export=download&id=1_njgaZIX2icoiFNKKkZZpzs8YFWTudL7";
     link.download = "ANUJ_PATEL_RESUME.pdf";
     link.click();
   });
@@ -94,12 +94,12 @@ function sendMail(params) {
   resumeLink.addEventListener("click", function (event) {
     event.preventDefault();
     window.open(
-      "https://drive.google.com/file/d/1LTU-tGNy8HfUGozmdw8PvnHGc4RxGzVY/view?usp=sharing",
+      "https://drive.google.com/file/d/1_njgaZIX2icoiFNKKkZZpzs8YFWTudL7/view?usp=sharing",
       "_blank"
     );
     let link = document.createElement("a");
     link.href =
-      "https://drive.google.com/uc?export=download&id=1LTU-tGNy8HfUGozmdw8PvnHGc4RxGzVY";
+      "https://drive.google.com/uc?export=download&id=1_njgaZIX2icoiFNKKkZZpzs8YFWTudL7";
     link.download = "ANUJ_PATEL_RESUME.pdf";
     link.click();
   });
