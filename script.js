@@ -86,7 +86,7 @@ function sendMail(params) {
     let link = document.createElement("a");
     link.href =
       "https://drive.google.com/uc?export=download&id=1_njgaZIX2icoiFNKKkZZpzs8YFWTudL7";
-    link.download = "ANUJ_PATEL_RESUME.pdf";
+    link.download = "Anuj-Patel-Resume.pdf";
     link.click();
   });
   
@@ -100,7 +100,7 @@ function sendMail(params) {
     let link = document.createElement("a");
     link.href =
       "https://drive.google.com/uc?export=download&id=1_njgaZIX2icoiFNKKkZZpzs8YFWTudL7";
-    link.download = "ANUJ_PATEL_RESUME.pdf";
+    link.download = "Anuj-Patel-Resume.pdf";
     link.click();
   });
   
